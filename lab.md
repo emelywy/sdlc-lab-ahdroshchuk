@@ -14,22 +14,39 @@
 
 Реалізація:
 function addTimerOrAlarm(type, timeOrDuration, repeatDays = null, sound = null):
+
     if type == "alarm":
+    
         if timeOrDuration is empty:
+        
             return "Error: Time cannot be empty"
+            
         else:
-            alarm = createAlarm(timeOrDuration, repeatDays, sound)  
-            alarmList.add(alarm)                                   
+        
+            alarm = createAlarm(timeOrDuration, repeatDays, sound) 
+            
+            alarmList.add(alarm)                                 
+            
             return "Alarm added successfully"
+            
     else if type == "timer":
+    
         if timeOrDuration <= 0:
+        
             return "Error: Timer duration must be positive"
+            
         else:
+        
             timer = createTimer(timeOrDuration)  
+            
             timer.start()                       
+            
             return "Timer started"
+            
     else:
+    
         return "Error: Unknown type"
+        
         
 Тестування:
 1. Додати будильник на 07:00 → він з’являється у списку будильників.
