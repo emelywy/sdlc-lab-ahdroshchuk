@@ -8,6 +8,7 @@
 5. Як користувач, я хочу бачити залишений час у форматі Ч:М:С.
 
 Дизайн: 
+
 Головна сторінка:https://github.com/emelywy/sdlc-lab-ahdroshchuk/blob/main/photo_2025-09-26_15-26-17.jpg
 
 Запуск таймеру:https://github.com/emelywy/sdlc-lab-ahdroshchuk/blob/main/photo_2025-09-26_15-26-25.jpg
